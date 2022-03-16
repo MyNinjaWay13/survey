@@ -27,7 +27,7 @@ if(isset($_POST["Question"])){
             <p class="black-text">Enter information for your survey!<br> so that we can personalize the right experience for you.</p>
             <div class="card">
                 <h5 class="text-center mb-4">Please fill the form</h5>
-                <form class="form-card" id="surveyform" action="SurveySubmit.php" method="post">
+                <form class="form-card" id="surveyform" action="SurveySubmit.php" method="post" enctype="multipart/form-data">
                     <div class="row justify-content-between text-left">
                         <div class="form-group col-sm-6 flex-column d-flex">
                             <label class="form-control-label px-3">Survey Title<span class="text-danger"> *</span></label>
@@ -39,7 +39,7 @@ if(isset($_POST["Question"])){
                         <br>
                         <div class="form-group">
                             <label class="form-label" for="customFile">Default file input example</label>
-                            <input type="file" class="form-control" name="img" id="customFile" required />
+                            <input  type="file" class="form-control" name="img" id="customFile" required />
                         </div>
                         <div class="form-group">
                             <label for="comment">Description</label>

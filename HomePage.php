@@ -64,7 +64,7 @@ $nextPage = ($pageNow + 1) > $pageTotal ? $pageTotal : ($pageNow + 1);
     <p style="font-size:25px;" class="fw-bold"><?=$survey['Question'];?></p>
     <p style="font-size:20px" name = "Description" class="fw-bold"><?=$survey['Description'];?></p>
     <br>
-    <img src = "images/android.jpg" width="650" height="400"/>
+    <img src = "<?=$survey['img'];?>" width="650" height="400" value=/>
     <br>
     <?php
       // print_r($survey);
