@@ -1,0 +1,134 @@
+.container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > div, header {
+  width: 100%;
+}
+.container > div > div > div  {
+  justify-content: left;
+
+}
+.text-end{
+  display: flex;
+  padding: 20 30px;
+
+}
+
+.card{
+  position:relative;
+  justify-content: left;
+}
+
+
+
+.search{
+  padding: 20 10px;
+  justify-content: right;
+  display: flex;
+  width: 400px;
+
+
+}
+.logobutton{
+  justify-content: left;
+  
+}
+
+.topnav {
+  background-color:#04AA6D;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 20 100px;
+  align-items: center;
+  font-size: Large;
+}
+
+a {
+    color: red;
+} 
+
+.topnav a {
+  justify-content: right;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration:dotted;
+  font-size: 18px;
+  align-items: center;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.header {
+  padding: 30px;
+font-size: 40px;
+text-align: center;
+background: white;
+}
+.RecSurveys{
+  justify-content: top;
+}
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  align-items: center;
+}
+.leftcolumn {
+  /* float: left;
+  width: 75%; */
+}
+
+.rightcolumn {
+  /* float: left;
+  width: 25%;
+  padding-left: 20px; */
+}
+
+.fakeimg {
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
