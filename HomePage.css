@@ -33,12 +33,19 @@ a.blog-link:hover {
 .bg-white.px-9{
     
     width: max-content;
+    background-color: #d30505 !important;
+}
+
+.test{
+    
+    width: max-content;
+    background-color: #fff9f9 !important;
 }
 
 .bg-white{
-    /* background-image: url("images/po2.jpg"); */
-    background-color: #adadad;
-    /* width: max-content; */
+   
+    background-color: #adadad !important;
+    
 }
 
 .row.col-5{
